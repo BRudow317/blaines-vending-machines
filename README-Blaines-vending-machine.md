@@ -18,6 +18,9 @@ npm run preview
 ```
 
 ## Dependencies
+```shell
+npm list
+```
 blaines-vending-machines@1.0.0 Q:\HomeLab\projects\blaines-vending-machines
 ├── @eslint/js@9.39.2
 ├── @types/node@24.10.13
@@ -37,6 +40,9 @@ blaines-vending-machines@1.0.0 Q:\HomeLab\projects\blaines-vending-machines
 └── vitest@4.0.18
 
 ## Final Project Structure
+```shell
+npx tree-node-cli -I "node_modules|dist" 
+```
 blaines-vending-machines
 ├── README-Blaines-vending-machine.md
 ├── README-Original.md
@@ -47,6 +53,7 @@ blaines-vending-machines
 ├── package.json
 ├── src
 │   ├── VendingMachineApp.tsx
+│   ├── claude.test.ts
 │   ├── index.css
 │   ├── main.tsx
 │   ├── tests.ts
